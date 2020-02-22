@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <style>
+            ul{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button" onclick="aaa(0)">names</button>
+        <button  type="button" onclick="aaa(1)">age</button>
+        <button  type="button" onclick="aaa(2)">address</button>
+        <button type="button"  onclick="aaa(3)">mobile</button>
+        <button type="button" onclick="aaa(4)">names</button>
+        <button  type="button" onclick="aaa(5)">age</button>
+        <button  type="button" onclick="aaa(6)">address</button>
+        <button type="button"  onclick="aaa(7)">mobile</button>
+        <button type="button" onclick="aaa(8)">names</button>
+        <button  type="button" onclick="aaa(9)">age</button>
+        <button  type="button" onclick="aaa(10)">address</button>
+        <button type="button"  onclick="aaa(11)">mobile</button>
+        <ul>
+            <li>name1</li>
+            <li>name2</li>
+            <li>name3</li>
+            
+        </ul>
+        <ul>
+            <li>20</li>
+            <li>22</li>
+            <li>20</li>
+        </ul>
+        <ul>
+            <li>aahhh</li>
+            <li>aahhh</li>
+            <li>aahhh</li>
+        </ul>
+        <ul>
+            <li>777777</li>
+            <li>44551545</li>
+            <li>5151561</li>
+        </ul>
+        <ul>
+            <li>name1</li>
+            <li>name2</li>
+            <li>name3</li>
+            
+        </ul>
+        <ul>
+            <li>20</li>
+            <li>22</li>
+            <li>20</li>
+        </ul>
+        <ul>
+            <li>aahhh</li>
+            <li>aahhh</li>
+            <li>aahhh</li>
+        </ul>
+        <ul>
+            <li>777777</li>
+            <li>44551545</li>
+            <li>5151561</li>
+        </ul>
+        <ul>
+            <li>name1</li>
+            <li>name2</li>
+            <li>name3</li>
+            
+        </ul>
+        <ul>
+            <li>20</li>
+            <li>22</li>
+            <li>20</li>
+        </ul>
+        <ul>
+            <li>aahhh</li>
+            <li>aahhh</li>
+            <li>aahhh</li>
+        </ul>
+        <ul>
+            <li>777777</li>
+            <li>44551545</li>
+            <li>5151561</li>
+        </ul>
+        <script>
+            function aaa(num){
+               
+                var length=document.getElementsByTagName("button").length
+                
+                for(var a=0;a<length;a++){
+                    if(num==a){
+                        document.getElementsByTagName("button")[num].style.backgroundColor="red"
+              
+
+                    }
+                    else{
+                        document.getElementsByTagName("button")[a].style.backgroundColor="transparent"
+              
+                    }
+                }
+
+                
+               
+                        for(var i=0;i<length;i++){
+                            if(num==i){
+                                document.getElementsByTagName("ul")[num].style.display="block"
+                            }else{
+                                document.getElementsByTagName("ul")[i].style.display="none"
+                            }
+                
+                        }
+                
+            }
+            // function bbb(){
+            //     document.getElementsByTagName("ul")[0].style.display="none"
+            //     document.getElementsByTagName("ul")[1].style.display="block"
+           
+            //     document.getElementsByTagName("ul")[2].style.display="none"
+            //     document.getElementsByTagName("ul")[3].style.display="none"
+           
+           
+
+            // }
+            // function ccc(){
+            //     document.getElementsByTagName("ul")[0].style.display="none"
+            //     document.getElementsByTagName("ul")[1].style.display="none"
+           
+            //     document.getElementsByTagName("ul")[2].style.display="block"
+            //     document.getElementsByTagName("ul")[3].style.display="none"
+           
+           
+
+            // }
+            // function ddd(){
+            //     document.getElementsByTagName("ul")[0].style.display="none"
+            //     document.getElementsByTagName("ul")[1].style.display="none"
+           
+            //     document.getElementsByTagName("ul")[2].style.display="none"
+            //     document.getElementsByTagName("ul")[3].style.display="block"
+           
+           
+
+            // }
+        </script>
+        
+
+
+
+    </body>
+</html>
